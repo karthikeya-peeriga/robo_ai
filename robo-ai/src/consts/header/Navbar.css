@@ -3,7 +3,7 @@
 .navbar {
   background: #FFF;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,6 +37,7 @@
 }
 
 .action-button {
+  width: 180px;
   padding: 10px 20px;
   background: var(--shady-yellow, linear-gradient(180deg, #FFE52E 21.22%, #C2AA00 85.36%));
   color: #000; /* Text color */

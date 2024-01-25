@@ -1,9 +1,13 @@
-import './App.css';
-import Page from './Page'
+import Frame from './frame'
+import Navbar from './components/consts/header/Navbar';
+
+
+
 function App() {
   return (
     <div>
-    <Page/>
+    <Navbar/>
+    <Frame/>
     </div>
     
   );
